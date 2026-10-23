@@ -4,6 +4,9 @@
   "bin": {
     "xnft": "./index.js"
   },
+  "scripts": {
+    "test:dev-server": "node --test test/dev-server.test.js"
+  },
   "browserslist": [
     "last 1 chrome version",
     "last 1 firefox version",

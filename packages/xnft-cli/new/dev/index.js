@@ -27,7 +27,7 @@ module.exports = (program) => {
         res.redirect(301, iframe);
       });
 
-      app.listen(port, () => {
+      app.listen(port, "localhost", () => {
         console.log(`listening on port ${port}`);
       });
     });

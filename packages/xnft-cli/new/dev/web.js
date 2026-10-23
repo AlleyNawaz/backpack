@@ -81,7 +81,7 @@ module.exports = (program) => {
 
       app.use("/", express.static(path.join(basePath, entry)));
 
-      app.listen(port, () => {
+      app.listen(port, "localhost", () => {
         console.log(`listening on port ${port}`);
       });
     });
